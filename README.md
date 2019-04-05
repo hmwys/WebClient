@@ -5,14 +5,14 @@
 
 首先系统要有装有jdk，命令为
 
-apt install deafault-jdk
+`apt install deafault-jdk`
 
 然后
-git clone https://github.com/hmwys/WebClient.git
+`git clone https://github.com/hmwys/WebClient.git`
 
 登录命令
-cd WebClient
-./login.sh
+`cd WebClient`
+`./login.sh`
 
 注销
-./logout.sh
+`./logout.sh`
