@@ -19,7 +19,7 @@ public class UrlConnUtil {
         try {
             urlConn().connect();
         } catch (SocketException e) {
-            System.out.println("网络异常，请检查好配置，如ip地址不能为静态ip");
+            System.out.println("网络异常，请检查好配置，如ip地址不能为静态ip   Unable to connect to the network. Please check the Network config. You may need to adjust the ip setting to DHCP");
             System.exit(0);
         } catch (IOException e) {
             e.printStackTrace();
