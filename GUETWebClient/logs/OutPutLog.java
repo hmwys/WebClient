@@ -20,7 +20,7 @@ public class OutPutLog {
         File cookies = new File("./log/", "cookies.txt");
         if (!cookies.exists()) new File("./log").mkdir();
         FileOutputStream fos = new FileOutputStream(cookies);
-        fos.write(rs.bodyAsBytes());
+        fos.write(rs.cookies().toString().getBytes());
         fos.close();
     }
 }
